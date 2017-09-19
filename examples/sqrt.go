@@ -5,11 +5,9 @@ import ("fmt"; "math")
 func main() {
 	var i = 16.0
 	fmt.Println("Inside sqrt function")
-	// calcPi()
-	// calcSqrt(i)
 	a, b := calc(i)
-	fmt.Println(a)
-	fmt.Println(b)
+	fmt.Println("Pi value is - " , a)
+	fmt.Println("Sqrt of ", i, " = ", b)
 	
 }
 
